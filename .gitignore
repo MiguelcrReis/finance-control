@@ -1,0 +1,35 @@
+## Build artifacts
+bin/
+obj/
+out/
+
+## User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## VS Code
+.vscode/
+.history/
+
+## ASP.NET Core
+appsettings.*.json
+appsettings.Development.json
+
+## Logs
+*.log
+
+## dotenv
+.env
+
+## EF Core
+Migrations/
+
+## Docker
+*.pid
+docker-compose.override.yml
+
+## Others
+*.db
+*.sqlite
