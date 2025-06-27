@@ -1,0 +1,42 @@
+Set-Content -Path ".gitattributes" -Value @"
+# Normalize line endings for text files
+* text=auto
+
+# C# source files
+*.cs text diff=csharp
+
+# Razor Pages / Blazor
+*.razor text
+*.cshtml text
+*.html text
+*.js text
+*.css text
+*.scss text
+*.json text
+*.xml text
+*.md text
+*.yml text
+*.ts text
+*.jsx text
+*.tsx text
+
+# Make sure binary files are not modified
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+*.eot binary
+*.ttf binary
+*.mp4 binary
+*.zip binary
+
+# Prevent auto conversion of line endings for shell scripts
+*.sh text eol=lf
+
+# Windows batch files
+*.bat text eol=crlf
+"@
