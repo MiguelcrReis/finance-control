@@ -9,6 +9,9 @@ out/
 *.userosscache
 *.sln.docstates
 
+## Visual Studio
+.vs/
+
 ## VS Code
 .vscode/
 .history/
